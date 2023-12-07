@@ -4,31 +4,25 @@
     height: 90px;
     justify-content: space-between;
 }
-
 body{
     margin: 0;
     padding: 0;
     font-family: Poppins,Inter;
-    
 }
-
 h2{
     color: white;
     text-align: center;
 }
-
 .left-section{
     display: flex;
     width: 270px;
     align-items: center;
     justify-content: center;
 }
-
 .company-link{
     text-decoration: none;
     color: white;
 }
-
 .middle-section{
     display: flex;
     flex-direction: row;
@@ -37,7 +31,6 @@ h2{
     align-items: center;    
     justify-content: center;
 }
-
 .middle-section ul{
     display: flex;
     justify-content: space-between;
@@ -47,13 +40,11 @@ h2{
     align-items: center;
     min-width: 300px;
 }
-
 .middle-section ul a{
     text-decoration: none;
     color: white;
     
 }
-
 .active{
     text-decoration: 4px underline #ED661F;
     text-underline-offset: 8px;
@@ -66,14 +57,12 @@ h2{
     align-items: center;
     justify-content: center;
 }
-
 .login-button {
     text-decoration: none;
     color: white;
     margin-left: 12px;
     margin-right: 30px;
 }
-
 .get-button {
     text-decoration: none;
     color: white;
@@ -81,32 +70,25 @@ h2{
     padding: 8px;
     border-radius: 2px;
 }
-
-.div1{
-    
-}
-
 .p1{
     
     font-size: 21px;
     font-weight: 600;
 }
-
 .p2{
     
     font-size: 12px;
     margin-bottom: 30px;
 }
-
-.explore-button{
+ .explore-button{
     background-color: #ED661F;
-    padding: 6px 6px 6px 6px;
+    padding: 0;
     text-decoration: none;
     color: white;
-    text-align: center;
+    margin: 0;
     font-size: 16px;
+    text-align: center;
 }
-
 .home{
     display: flex;
     align-items: center;
@@ -126,14 +108,41 @@ h2{
     flex-direction: column;
     align-items: left;
 }
-
 .image-container-2{
     display: flex;
-   
 }
-
 .image2{
     width: 100%;
-   
+}
+.card{
+
+}
+.overlay{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px;
+    margin-top: -50px;
+    padding: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.vendors{
+    text-align: center;
+    
+}
+
+.customers{
+    text-align: center;
+    
+}
+
+.nation{
+    text-align: center;
     
 }
